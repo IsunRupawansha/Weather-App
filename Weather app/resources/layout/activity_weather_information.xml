@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Weather_Information"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:weightSum="35"
+    android:background="@drawable/w">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/date_list1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            android:text="Name: "
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:layout_height="70dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/icon_list1"
+            android:layout_width="194dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/pic_01d" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/temp_list1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:padding="5dp"
+            android:text="32 C"
+            android:gravity="center"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/humidity_list1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:text="Name: "
+            android:gravity="center|top"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>
